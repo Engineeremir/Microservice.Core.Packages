@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Core.Packages.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Core.Packages.Security", "Microservice.Core.Packages.Security\Microservice.Core.Packages.Security.csproj", "{402E0C9B-7459-49FC-A141-6F91AC8FD57D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Core.Packages.Mailing", "Microservice.Core.Packages.Mailing\Microservice.Core.Packages.Mailing.csproj", "{C524B4A0-FD53-4601-A6C7-1631744FBF5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{402E0C9B-7459-49FC-A141-6F91AC8FD57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402E0C9B-7459-49FC-A141-6F91AC8FD57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402E0C9B-7459-49FC-A141-6F91AC8FD57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C524B4A0-FD53-4601-A6C7-1631744FBF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C524B4A0-FD53-4601-A6C7-1631744FBF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C524B4A0-FD53-4601-A6C7-1631744FBF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C524B4A0-FD53-4601-A6C7-1631744FBF5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
