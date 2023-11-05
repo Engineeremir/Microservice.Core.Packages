@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Core.Packages.Persistence", "Microservice.Core.Packages.Persistence\Microservice.Core.Packages.Persistence.csproj", "{698057D8-5869-42E9-8D06-7FF4DA51ECFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Core.Packages.Security", "Microservice.Core.Packages.Security\Microservice.Core.Packages.Security.csproj", "{402E0C9B-7459-49FC-A141-6F91AC8FD57D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{698057D8-5869-42E9-8D06-7FF4DA51ECFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{698057D8-5869-42E9-8D06-7FF4DA51ECFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{698057D8-5869-42E9-8D06-7FF4DA51ECFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402E0C9B-7459-49FC-A141-6F91AC8FD57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402E0C9B-7459-49FC-A141-6F91AC8FD57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402E0C9B-7459-49FC-A141-6F91AC8FD57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402E0C9B-7459-49FC-A141-6F91AC8FD57D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
