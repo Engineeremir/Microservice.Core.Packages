@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Microservice.Core.Packages.Persistence.Paging;
+﻿namespace Microservice.Core.Packages.Persistence.Paging;
 
 public class Paginate<T> : IPaginate<T>
 {

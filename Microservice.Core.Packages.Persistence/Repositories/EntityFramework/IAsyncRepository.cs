@@ -1,11 +1,6 @@
 ﻿using Microservice.Core.Packages.Persistence.Paging;
 using Microsoft.EntityFrameworkCore.Query;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Microservice.Core.Packages.Persistence.Repositories.EntityFramework;
 

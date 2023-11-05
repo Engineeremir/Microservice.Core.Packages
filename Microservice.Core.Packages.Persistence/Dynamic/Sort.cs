@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Microservice.Core.Packages.Persistence.Dynamic;
+﻿namespace Microservice.Core.Packages.Persistence.Dynamic;
 
 public class Sort
 {
