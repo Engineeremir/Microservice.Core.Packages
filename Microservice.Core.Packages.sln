@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Core.Packages.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Core.Packages.ElasticSearch", "Microservice.Core.Packages.ElasticSearch\Microservice.Core.Packages.ElasticSearch.csproj", "{23EADA2B-EF25-4DF4-93E7-3303EC4EA7E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Core.Packages.CrossCuttingConcerns", "Microservice.Core.Packages.CrossCuttingConcerns\Microservice.Core.Packages.CrossCuttingConcerns.csproj", "{B50C8544-2411-4981-9DFB-02A03DBC68D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{23EADA2B-EF25-4DF4-93E7-3303EC4EA7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23EADA2B-EF25-4DF4-93E7-3303EC4EA7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23EADA2B-EF25-4DF4-93E7-3303EC4EA7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50C8544-2411-4981-9DFB-02A03DBC68D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50C8544-2411-4981-9DFB-02A03DBC68D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50C8544-2411-4981-9DFB-02A03DBC68D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50C8544-2411-4981-9DFB-02A03DBC68D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
