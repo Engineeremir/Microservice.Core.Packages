@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Pipelines\Logging\" />
     <Folder Include="Pipelines\Validation\" />
   </ItemGroup>
 
