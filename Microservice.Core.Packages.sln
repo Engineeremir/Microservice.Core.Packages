@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Core.Packages.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Core.Packages.CrossCuttingConcerns", "Microservice.Core.Packages.CrossCuttingConcerns\Microservice.Core.Packages.CrossCuttingConcerns.csproj", "{B50C8544-2411-4981-9DFB-02A03DBC68D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Core.Packages.Application", "Microservice.Core.Packages.Application\Microservice.Core.Packages.Application.csproj", "{E31535C3-92B6-47D7-B793-096C15B1B595}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B50C8544-2411-4981-9DFB-02A03DBC68D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B50C8544-2411-4981-9DFB-02A03DBC68D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B50C8544-2411-4981-9DFB-02A03DBC68D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31535C3-92B6-47D7-B793-096C15B1B595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31535C3-92B6-47D7-B793-096C15B1B595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31535C3-92B6-47D7-B793-096C15B1B595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31535C3-92B6-47D7-B793-096C15B1B595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

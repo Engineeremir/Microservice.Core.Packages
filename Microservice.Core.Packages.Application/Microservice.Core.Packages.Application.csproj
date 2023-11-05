@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Pipelines\Caching\" />
+    <Folder Include="Pipelines\Logging\" />
+    <Folder Include="Pipelines\Validation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.8.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.0" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microservice.Core.Packages.CrossCuttingConcerns\Microservice.Core.Packages.CrossCuttingConcerns.csproj" />
+    <ProjectReference Include="..\Microservice.Core.Packages.Security\Microservice.Core.Packages.Security.csproj" />
+  </ItemGroup>
+
+</Project>
