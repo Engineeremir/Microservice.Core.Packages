@@ -1,10 +1,5 @@
 ﻿using Microservice.Core.Packages.Persistence.Repositories.EntityFramework;
 using Microservice.Core.Packages.Security.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Microservice.Core.Packages.Security.Entities;
 
